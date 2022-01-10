@@ -1,6 +1,6 @@
 # Thinking\-In\-React
 
-### [React로 사고하기](https://ko.reactjs.org/docs/thinkinginreact.html) 공식문서를 보고 구현한 레포지토리 입니다.
+### [React로 사고하기](https://ko.reactjs.org/docs/thinking-in-react.html) 공식문서를 보고 구현한 레포지토리 입니다.
 
 <br>
 

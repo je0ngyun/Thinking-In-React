@@ -8,8 +8,7 @@
 
 - 기존 Class 기반 컴포넌트를 함수형 컴포넌트로 변경 ✅
 - Catagory가 추가될것을 고려하여 검색 알고리즘 재설계 ✅
-- 기존 콜백함수에 useCallback 적용 ✅
-- 스타일 작성 해보기
+- 간단한 스타일 작성 ✅
 - React18 Suspence 적용해보기
 
 # Learned

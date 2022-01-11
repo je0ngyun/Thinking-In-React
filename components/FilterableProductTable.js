@@ -4,7 +4,7 @@ import fetch from '../mock/mockAPI';
 import ProductTable from './ProductTable';
 import SearchBar from './SearchBar';
 
-const { useState, useEffect, useCallback } = React;
+const { useState, useEffect } = React;
 
 function FilterableProductTable() {
   const [data, setData] = useState(null);
@@ -15,13 +15,13 @@ function FilterableProductTable() {
     fetch(150).then(setData);
   }, []);
 
-  const handleText = useCallback(function (e) {
+  const handleText = function (e) {
     setFilterText(e.target.value);
-  });
+  };
 
-  const toggleStockOptions = useCallback(function () {
+  const toggleStockOptions = function () {
     setIsStockOnly((flag) => !flag);
-  });
+  };
 
   if (!data) {
     return <div>loading...</div>;

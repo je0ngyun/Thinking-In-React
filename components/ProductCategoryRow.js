@@ -2,7 +2,7 @@
 
 function ProductCategoryRow({ category }) {
   return (
-    <tr>
+    <tr className="product-row">
       <td colSpan={2}>{category}</td>
     </tr>
   );

@@ -1,0 +1,54 @@
+.container {
+  width: 250px;
+  min-height: 400px;
+  border: 2px solid #ececec;
+  border-radius: 4px;
+}
+
+table {
+  padding: 0.5rem;
+  width: 100%;
+}
+
+thead {
+  font-weight: bold;
+}
+
+thead,
+td {
+  width: 70px;
+  padding: 0.3rem;
+}
+
+.product-row {
+  font-weight: bold;
+}
+
+.search-bar {
+  padding: 0.5rem;
+  border-radius: 4px 4px 0px 0px;
+  background: #ececec;
+}
+
+.search-bar > * {
+  display: flex;
+}
+
+.text-filter {
+  margin-bottom: 3px;
+}
+
+.text-filter input {
+  flex-grow: 1;
+  margin-left: 5px;
+}
+
+.stock-option span {
+  flex-grow: 1;
+  margin-left: 5px;
+}
+
+.stock-out {
+  color: red;
+}
+

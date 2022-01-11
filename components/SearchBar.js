@@ -7,22 +7,18 @@ function SearchBar({
   toggleStockOptions,
 }) {
   return (
-    <div>
-      <div>
-        <span>filter : </span>
-        <span>
-          <input type="text" value={filterText} onChange={handleText} />
-        </span>
+    <div className="search-bar">
+      <div className="text-filter">
+        <span>Filter</span>
+        <input type="text" value={filterText} onChange={handleText} />
       </div>
-      <div>
-        <span>
-          <input
-            type="checkbox"
-            checked={isStockOnly}
-            onChange={toggleStockOptions}
-          />
-          <span>Only show products in stock</span>
-        </span>
+      <div className="stock-option">
+        <input
+          type="checkbox"
+          checked={isStockOnly}
+          onChange={toggleStockOptions}
+        />
+        <span>Only show products in stock</span>
       </div>
     </div>
   );

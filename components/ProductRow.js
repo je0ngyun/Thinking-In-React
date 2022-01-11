@@ -2,9 +2,10 @@
 
 function ProductRow({ product }) {
   const { name, price } = product;
+  const stockStatus = product.stocked ? '' : 'stock-out';
   return (
     <tr>
-      <td>{name + ' '}</td>
+      <td className={stockStatus}>{name + ' '}</td>
       <td>{price}</td>
     </tr>
   );

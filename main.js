@@ -2,6 +2,7 @@
 
 const { createElement } = React;
 import FilterableProductTable from './components/FilterableProductTable';
+import './main.css';
 
 const App = function () {
   return <FilterableProductTable />;

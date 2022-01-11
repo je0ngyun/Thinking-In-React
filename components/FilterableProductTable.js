@@ -12,7 +12,7 @@ function FilterableProductTable() {
   const [isStockOnly, setIsStockOnly] = useState(false);
 
   useEffect(() => {
-    fetch(1500).then(setData);
+    fetch(150).then(setData);
   }, []);
 
   const handleText = useCallback(function (e) {
@@ -27,7 +27,7 @@ function FilterableProductTable() {
     return <div>loading...</div>;
   } else {
     return (
-      <div>
+      <div className="container">
         <SearchBar
           filterText={filterText}
           isStockOnly={isStockOnly}
